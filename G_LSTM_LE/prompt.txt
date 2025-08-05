@@ -1,0 +1,70 @@
+I love this plan. Please, let's write the abstraction part of the paper. Please make sure this is a journal-level paragraph and every single sentence is backed by existing literature and factors/evidence.  Then, please output this in LaTeX format. Including reference at the end of the overleaf document
+
+
+Please double check each of your reference and make sure they are all correct
+
+
+Let's write the introduction part of the paper. Please make sure this is a journal-level paragraph and every single sentence is backed by existing literature and factors/evidence. Then, please output this in LaTeX format. Including reference at the end of the overleaf document. 
+
+
+Please double check each of your reference and make sure they are all correct
+
+
+Let's write the 2 Edge‑of‑chaos calibration (pre‑training) part of the paper. Please make sure this is a journal-level paragraph and every single sentence is backed by existing literature and factors/evidence. Then, please output this in LaTeX format. Including reference at the end of the overleaf document. 
+
+
+Please double check each of your reference and make sure they are all correct
+
+
+Let's write the 3 Permutation‑equivariant RNNs part of the paper. Please make sure this is a journal-level paragraph and every single sentence is backed by existing literature and factors/evidence. Then, please output this in LaTeX format. Including reference at the end of the overleaf document. Please make sure it is mathematically rigorous and sophisticated, and make sure there are clear derivations from vanilla LSTM (from Vogt 2024 and Engelken 2023) to G-LSTM (from Supplement B of Gordon 2020) to Kronecker representation of G-LSTM
+
+
+Please double check each of your reference and make sure they are all correct
+
+
+Let's write the 4 Theory: Jacobian block‑Kronecker form part of the paper. Please make sure this is a journal-level paragraph and every single sentence is backed by existing literature and factors/evidence. Please make sure it is mathematically rigorous and sophisticated. Write detailed formal mathematical proof which would reach the standard of the Symmetry & Geometry in Neural Representations (NeurReps) workshop. Then, please output this in LaTeX format. Including reference at the end of the overleaf document.
+
+
+Please double check each of your proof and reference and make sure they are all correct and fool proof
+
+
+Let's write the 5 Physics bridge: stochastic Noether martingales part of the paper. Please make sure this is a journal-level paragraph and every single sentence is backed by existing literature and factors/evidence. Please make sure it is mathematically rigorous and sophisticated. Write detailed formal mathematical proof which would reach the standard of the Symmetry & Geometry in Neural Representations (NeurReps) workshop. Then, please output this in LaTeX format. Including reference at the end of the overleaf document.
+
+Please double check each of your proof and reference and make sure they are all correct and fool proof
+
+
+Let's write the 6 Experiments part of the paper. Please make sure this is a journal-level paragraph and every single sentence is backed by existing literature and factors/evidence which would reach the standard of the Symmetry & Geometry in Neural Representations (NeurReps) workshop. Then, please output this in LaTeX format. Including reference at the end of the overleaf document.
+
+Please double check each of your reference and make sure they are all correct
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+start from the begining and right after outline. Write solid proof. Do numerical simulation after training. From the begining, incoperate Continous symmetry
+
+What results we have so far?
+1. Calibration plots for LSTM, G-LSTM and Kronecker G-LSTM
+2. Lyapunov spectrum plots for LSTM, G-LSTM and Kronecker G-LSTM
+3. Lyapunov spectrum plots for continuous RNN, static CAN, moving CAN
+
+What result we do not have yet?
+1. Training performance comparison between LSTM, G-LSTM and Kronecker G-LSTM (Engelken Gradient Flossing or Lazy vs Hasty figure 1)
+2. Eigenvalue spectrum (Back it with clear Lyapunov and (optionally) Jacobian spectral‑radius plots)
+3. End with a short empirical teaser that “the same models also train faster / need fewer examples”, flagging this as future work.
+
+
+
+How to connect this to biological system/neuroscience data? Let’s try may connect to GLIFR in the discussion for the discrete symmetry
+
+New title for the paper

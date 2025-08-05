@@ -1,0 +1,70 @@
+Here are three parts of code for this research. The first one is vanilla LSTM. The second is G-LSTM. The third is the Kronecker representation of G-LSTM (have same result with G-LSTM but easier to apply theorem and write proofs).  Please read through my all three code and understand them fully and carefully
+
+Every model starts in the same dynamical regime (edge of chaos). Differences our report can be attributed to symmetry, not to “how chaotic the net happens to be”. We can invoke existing theory directly: “We hold λ_max ≈ 0 for all models, then observe variance compression.” “We equalised the largest Lyapunov exponent to zero for all models and then measured the spectrum shape.”
+
+Below is the results of Vanilla LSTM model, G-LSTM and Kronecker representation of G-LSTM model. Please understand it fully and carefully and ask me any question if you are confused
+
+
+
+
+
+Our goal is submitting a paper/research to Symmetry & Geometry in Neural Representations (NeurReps) workshop. Here is their website https://www.neurreps.org/about. 
+
+We would like this to be a short theoretical paper where we show enforce symmetry (permutation equivariant) -> flatten lyapunov spectrum in the begining and Jacobian be part of it and irrep blocks/Jacobian block‑structured (soul of the paper) then add examples show it works (easier training, lack of the direction of the data to represent) Part of theory and part of model/empirical and also include training. But maybe later discussion about it.
+
+Theorical/Analytical part:
+1. Theorical Core
+How does calibrate into edge of chaos define into "enforce symmetry (permutation equivariant) - flatten lyapunov spectrum in the begining and Jacobian be part of it and irrep block" statement/definition. 
+Solid analytical proof of the flatten of spectrum soul of paper. \textbf{Define the flatten discrete group number of finite size number of lyapunov almost the same on each of the stair and group choosing. Length of the stair case would equal to cardinality of the group orbit. Then some additional things in networks can do that not require this type of data argumentation that directly build in and something biological}
+
+Cite classic chaos metrics in RNNs (https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.043044?utm_source=chatgpt.com and https://link.springer.com/article/10.1007/s00521-024-09824-6) and physics results showing symmetry‑induced order (https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.062207?utm_source=chatgpt.com)
+
+
+2. Mathematics - Physics Bridge
+Where possible, relate our proof to Noether‑style conservation laws to connect with recent NeurReps interest in stochastic Noether theorems https://openreview.net/pdf?id=lLiIJc7oCJ 
+
+
+
+
+
+
+
+
+Every model starts in the same dynamical regime (edge of chaos). Differences our report can be attributed to symmetry, not to “how chaotic the net happens to be”. We can invoke existing theory directly: “We hold λ_max ≈ 0 for all models, then observe variance compression.” “We equalised the largest Lyapunov exponent to zero for all models and then measured the spectrum shape.”
+
+Control of dynamical regime (operating on the edge of chaos). We set a comparable dynamical baseline for every architecture.
+In the Methods — Calibration paragraph, “For each architecture we performed a one‑dimensional gain sweep and selected the gain g* that yields λ_max ≈ 0, following the edge‑of‑chaos criterion of Pennington et al. (2018). All subsequent experiments use this g* unless stated otherwise.”
+
+What paper support this initialization/dynamical reigme of Neural network?
+
+
+
+
+
+Numerical results:
+What results we have so far?
+1. Calibration plots for LSTM, G-LSTM and Kronecker G-LSTM
+2. Lyapunov spectrum plots for LSTM, G-LSTM and Kronecker G-LSTM
+3. Lyapunov spectrum plots for continous RNN, static CAN, moving CAN
+
+What result we do not have yet?
+1. Training performance comparison between LSTM, G-LSTM and Kronecker G-LSTM
+2. Eigenvalue spectrum (Back it with clear Lyapunov and (optionally) Jacobian spectral‑radius plots)
+3. End with a short empirical teaser that “the same models also train faster / need fewer examples”, flagging this as future work.
+
+
+
+
+
+Questions need to be addressed:
+How to connect this to biological system/neuroscience data?
+What about our continous symmetry part of the paper (translational CAN)?
+New title for the paper
+
+
+
+
+Make sure no other people doing this and write down what other people do and how this is different from them. This is some how different. Someone studied x, y, z but we study w; samborn and bruno olshausen group equivariant paper
+
+Double check the statement below since it is very easy to be questioned 
+“We provide the first systematic evidence that enforcing permutation/translation symmetry directly reduces chaoticity in firing‑rate RNNs, holding network size and critical gain constant.”

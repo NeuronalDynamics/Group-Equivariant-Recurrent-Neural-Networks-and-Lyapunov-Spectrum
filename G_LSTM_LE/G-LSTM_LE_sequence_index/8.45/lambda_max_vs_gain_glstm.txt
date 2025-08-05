@@ -1,0 +1,82 @@
+(GRU_LS) C:\Users\qiant\Desktop\gru_ls\Equivariant_NN_LE\G_LSTM_LE\G-LSTM_LE_sequence_index>python GPU_fast.py --calibrate
+g=6.50  equivariance ok=True  maxΔ=0.0e+00
+g=6.50 → λ_max = -0.0457 ± 0.0094
+g=6.60  equivariance ok=True  maxΔ=0.0e+00
+g=6.60 → λ_max = -0.0353 ± 0.0080
+g=6.70  equivariance ok=True  maxΔ=0.0e+00
+g=6.70 → λ_max = -0.0205 ± 0.0083
+g=6.80  equivariance ok=True  maxΔ=0.0e+00
+g=6.80 → λ_max = -0.0190 ± 0.0094
+g=6.90  equivariance ok=True  maxΔ=0.0e+00
+g=6.90 → λ_max = -0.0231 ± 0.0077
+g=7.00  equivariance ok=True  maxΔ=0.0e+00
+g=7.00 → λ_max = -0.0385 ± 0.0090
+g=7.10  equivariance ok=True  maxΔ=0.0e+00
+g=7.10 → λ_max = -0.0340 ± 0.0124
+g=7.20  equivariance ok=True  maxΔ=0.0e+00
+g=7.20 → λ_max = -0.0093 ± 0.0067
+g=7.30  equivariance ok=True  maxΔ=0.0e+00
+g=7.30 → λ_max = -0.0205 ± 0.0110
+g=7.40  equivariance ok=True  maxΔ=0.0e+00
+g=7.40 → λ_max = -0.0279 ± 0.0098
+g=7.50  equivariance ok=True  maxΔ=0.0e+00
+g=7.50 → λ_max = -0.0285 ± 0.0118
+g=7.60  equivariance ok=True  maxΔ=0.0e+00
+g=7.60 → λ_max = -0.0235 ± 0.0128
+g=7.70  equivariance ok=True  maxΔ=0.0e+00
+g=7.70 → λ_max = -0.0475 ± 0.0101
+g=7.80  equivariance ok=True  maxΔ=0.0e+00
+g=7.80 → λ_max = -0.0158 ± 0.0095
+g=7.90  equivariance ok=True  maxΔ=0.0e+00
+g=7.90 → λ_max = -0.0229 ± 0.0116
+g=8.00  equivariance ok=True  maxΔ=0.0e+00
+g=8.00 → λ_max = -0.0053 ± 0.0112
+g=8.10  equivariance ok=True  maxΔ=0.0e+00
+g=8.10 → λ_max = -0.0198 ± 0.0095
+g=8.20  equivariance ok=True  maxΔ=0.0e+00
+g=8.20 → λ_max = +0.0089 ± 0.0090
+g=8.30  equivariance ok=True  maxΔ=0.0e+00
+g=8.30 → λ_max = -0.0090 ± 0.0121
+g=8.40  equivariance ok=True  maxΔ=0.0e+00
+g=8.40 → λ_max = -0.0032 ± 0.0091
+g=8.50  equivariance ok=True  maxΔ=0.0e+00
+g=8.50 → λ_max = +0.0012 ± 0.0084
+g=8.60  equivariance ok=True  maxΔ=0.0e+00
+g=8.60 → λ_max = +0.0053 ± 0.0090
+g=8.70  equivariance ok=True  maxΔ=0.0e+00
+g=8.70 → λ_max = +0.0019 ± 0.0095
+g=8.80  equivariance ok=True  maxΔ=0.0e+00
+g=8.80 → λ_max = +0.0194 ± 0.0094
+g=8.90  equivariance ok=True  maxΔ=0.0e+00
+g=8.90 → λ_max = +0.0086 ± 0.0089
+g=9.00  equivariance ok=True  maxΔ=0.0e+00
+g=9.00 → λ_max = +0.0130 ± 0.0107
+g=9.10  equivariance ok=True  maxΔ=0.0e+00
+g=9.10 → λ_max = +0.0135 ± 0.0091
+g=9.20  equivariance ok=True  maxΔ=0.0e+00
+g=9.20 → λ_max = -0.0026 ± 0.0109
+g=9.30  equivariance ok=True  maxΔ=0.0e+00
+g=9.30 → λ_max = +0.0111 ± 0.0120
+g=9.40  equivariance ok=True  maxΔ=0.0e+00
+g=9.40 → λ_max = -0.0000 ± 0.0108
+g=9.50  equivariance ok=True  maxΔ=0.0e+00
+g=9.50 → λ_max = +0.0265 ± 0.0097
+g=9.60  equivariance ok=True  maxΔ=0.0e+00
+g=9.60 → λ_max = +0.0044 ± 0.0132
+g=9.70  equivariance ok=True  maxΔ=0.0e+00
+g=9.70 → λ_max = +0.0135 ± 0.0095
+g=9.80  equivariance ok=True  maxΔ=0.0e+00
+g=9.80 → λ_max = +0.0270 ± 0.0102
+g=9.90  equivariance ok=True  maxΔ=0.0e+00
+g=9.90 → λ_max = +0.0405 ± 0.0125
+g=10.00  equivariance ok=True  maxΔ=0.0e+00
+g=10.00 → λ_max = +0.0186 ± 0.0080
+g=10.10  equivariance ok=True  maxΔ=0.0e+00
+g=10.10 → λ_max = +0.0382 ± 0.0104
+g=10.20  equivariance ok=True  maxΔ=0.0e+00
+g=10.20 → λ_max = +0.0305 ± 0.0119
+g=10.30  equivariance ok=True  maxΔ=0.0e+00
+g=10.30 → λ_max = +0.0216 ± 0.0104
+g=10.40  equivariance ok=True  maxΔ=0.0e+00
+g=10.40 → λ_max = +0.0150 ± 0.0105
+saved  lambda_max_vs_gain_glstm.png
